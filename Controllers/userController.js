@@ -107,7 +107,7 @@ exports.deleteuser = async(req,res)=>{
     }
 }
 
-//upate user
+//update user
 
 exports.updateUser = async(req,res)=>{
     const {id} = req.params;
